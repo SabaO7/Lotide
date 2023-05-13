@@ -5,4 +5,6 @@ const head = function(array) {
 
 const assertEqual = require('./assertEqual');
 
+module.exports = head;
+
 
