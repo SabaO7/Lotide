@@ -1,6 +1,6 @@
 {
   "name": "@saba072/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is Lotide Library where there are many functions available to use from.",
   "main": "index.js",
   "directories": {
