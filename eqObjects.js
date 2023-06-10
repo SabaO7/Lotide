@@ -1,11 +1,5 @@
 const eqArrays = require('./eqArrays');
 
-//console.log(assertEqual);
-
-//assertEqual("Lighthouse Labs", "Bootcamp");
-//assertEqual(1, 1);
-
-
 const eqObjects = function(object1, object2) {
 
   const keys1 = Object.keys(object1);
@@ -39,9 +33,4 @@ eqObjects(multiColorShirtObject  , anotherMultiColorShirtObject); // => true
 
 const longSleeveMultiColorShirtObject= { size: "medium", colors: ["red", "blue"], sleeveLength: "long" };
 eqObjects(multiColorShirtObject  , longSleeveMultiColorShirtObject); // => false
-
-console.log (eqObjects(multiColorShirtObject  , anotherMultiColorShirtObject));
-
-console.log (eqObjects(multiColorShirtObject  , longSleeveMultiColorShirtObject));
-
 

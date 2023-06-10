@@ -7,8 +7,9 @@ const map = function(array, callback) {
     results.push(callback(item));
   }
   return results;
-}
+};
 
+module.exports = map;
 
 
 const words = ["ground", "control", "to", "major", "tom"];

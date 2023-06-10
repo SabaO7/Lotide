@@ -14,6 +14,9 @@ const letterPositions = function(sentence) {
   return results;
 };
 
+module.exports = letterPositions;
+
+
 console.log(letterPositions("My name is Potato"));
 
 assertArraysEqual(letterPositions("hello").e, [1]);

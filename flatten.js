@@ -17,6 +17,9 @@ const flatten = function(arr) {
   return flattenedArr;
 };
 
+module.exports = flatten;
+
+
 // Test case
 let result = flatten([1, 2, [3, 4], 5, [6]]);
 console.log(result); // => [1, 2, 3, 4, 5, 6]

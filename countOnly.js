@@ -1,3 +1,4 @@
+const { count } = require('yargs');
 const assertEqual = require('./assertEqual');
 
 const countOnly = function(allItems, itemsToCount) {
@@ -15,6 +16,8 @@ const countOnly = function(allItems, itemsToCount) {
 
   return results;
 }
+
+module.exports = countOnly;
 
 const firstNames = [
   "Karl",

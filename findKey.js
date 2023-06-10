@@ -16,4 +16,7 @@ const result = findKey({
   orange: 3
 }, x => x === 2);
 
+module.exports = findKey;
+
+
 assertEqual(result, 'banana');
